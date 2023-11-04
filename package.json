@@ -1,0 +1,26 @@
+{
+  "name": "openai-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Istiopaxx/openai-node-bug-report.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Istiopaxx/openai-node-bug-report/issues"
+  },
+  "homepage": "https://github.com/Istiopaxx/openai-node-bug-report#readme",
+  "dependencies": {
+    "openai": "^4.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
